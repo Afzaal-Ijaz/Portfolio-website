@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO-Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="Images/profile pic.jpg" alt="">
+            <h1>/*Afzaal_Ijaz*/</h1>
+
+        </div>
+
+        <!--Menu bar for smaller devices-->
+        <div class="menu-div">
+            <div class="menu-slider" id="slider1"></div>
+            <div class="menu-slider" id="slider2"></div>
+            <div class="menu-slider" id="slider3"></div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="#Myself">Myself</a>
+            <a href="#Education">Education</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact-Me">Contact</a>
+        </div>
+    </div>
+     
+    <!--Menu div (icons) for smaller devices-->
+    <div class="menu-icons-container" id="hide">
+        <div class="menu-icons-div">
+            <div class="menu-cross-btn-div">
+                <div class="cross1"></div>
+                <div class="cross2"></div>
+            </div>
+
+            <a class="sm_link"  href="#Myself">Myself</a>
+            <a class="sm_link" href="#Education">Skillset</a>
+            <a class="sm_link" href="#Projects">Projects</a>
+            <a class="sm_link" href="#Contact-Me">Contact</a> 
+        </div>
+    </div>
+
+    <!--Main Section-->
+    <section id="Myself">
+        <div class="myself">
+            <h1  class="main-para">Hi! <br> I am <span>Afzaal Ijaz</span><br><span>FrontEnd developer</span></h1>
+            <img  src="Images/main image.jpg" alt="Profile Img" id="profile-pic">
+        </div>
+    </section>
+
+    
+    <!--Education Section-->
+    <section id="Education">
+        <h1 class="sub-head">Education</h1>
+        <div class="sqr-div">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Graduate College Of Science</h2>
+            <p>Curretly I am doing BSCS </p>
+            <h2><i class="fa-solid fa-building-columns"></i> Khawaja Rafeeq Shaheed College</h2>
+            <p>Passed my intermediate exam in 2020 with A+ grade </p>
+            <h2><i class="fa-solid fa-school"></i> Government Najaf High School</h2>
+            <p>Passed my matriculation exam in 2018 with A+ grade </p>
+
+        </div>
+    </section>
+
+    <!--Skills Section-->
+    <section id="Skills">
+        <h1 class="sub-head">Skills</h1>
+        <div class="sqr-div">
+            <p class="skill-para">My Skillset includes :<br><br>+ HTML <i class="fa-brands fa-html5"></i>
+             <br>+ CSS <i class="fa-brands fa-css3-alt"></i><br>+ JAVASCRIPT <i class="fa-brands fa-js"></i>
+             <br>+ PYTHON <i class="fa-brands fa-python"></i><br>+ C++ <i class="fa-brands fa-c++"></i> <br><br>I am continuosly expanding my Skillset</p>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section id="Projects">
+        <h1 class="projects-main-head">Projects</h1>
+        <div class="select-div">
+            <select id="project-select">
+                <option value="All">All</option>
+                <option value="python">Python</option>
+                <option value="frontend">Web Development</option>
+            </select>
+        </div>
+        <div class="projects-div">
+            <div class="project" id="python">
+                <h2 class="projects-head">Python Projects</h2>
+                <p class="projects-para">A console based book ordering application built with python. This is the learning phase of my python.</p>
+                <a href="https://github.com/Afzaal-Ijaz/Python_Learning_Phase.git" class="projects-links">Code Github Link!</a>
+            </div>
+            <div class="project" id="web-dev">
+                <h2 class="projects-head">Streamlit Calculator</h2>
+                <p class="projects-para">My first project on streamlit. This calculator is also work for keyboard inputs</p>
+                <a href="https://github.com/Afzaal-Ijaz/Calculaor-project.git" class="projects-links">Code Github Link!</a>
+            </div>
+            <div class="project" id="web-dev">
+                <h2 class="projects-head">Landing Page</h2>
+                <p class="projects-para">A landing page to showcase my UI/UX skills.</p>
+                <a href="https://github.com/Afzaal-Ijaz/Cola-Landing-page.git" class="projects-links">Code Github Link!</a>
+            </div>
+            <div class="project" id="web-dev">
+                <h2 class="projects-head">Rock Paper Scissors Game</h2>
+                <p class="projects-para">This game is built in HTML, CSS & JAVASCRIPT. I have used core JAVASCRIPT concepts in building this game.</p>
+                <a href="https://github.com/Afzaal-Ijaz/Rock-Paper-Scissors-Game.git" class="projects-links">Code Github Link!</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section id="Contact-Me">
+        <div class="contact-container">
+            <h2 class="contact-head">Contact Me!</h2>
+            <form class="contact-inputs">
+                <span>Name</span><br>
+                <input type="name" class="input" id="name"><br>
+                <span>Email</span><br>
+                <input type="email" class="input" id="email"><br>
+                <span>Message</span><br>
+                <textarea type="text" class="input" style="resize: none;padding: 2% 5% 9% 4%;" id="message"></textarea>
+                <div class="submit-btn-div">
+                    <button class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!------About Section--- -->
+    <section class="about">
+        <div class="footer_img">
+            <img src="Images/profile pic.jpg" alt="">
+        </div>
+        <div class="footer_txt">
+            Social media Accouts: <br>
+            <a href="https://github.com/Afzaal-Ijaz"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/afzaal-ijaz-852aaa278/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/afzaal.ahmad.766319"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+            <br>Lets connect to learn together
+            
+        </div>
+        
+    </section>
+    <div style="height: 3vh;"></div>
+    <script src="index.js"></script>
+
+    <!--Emailjs link-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+            publicKey: "nBobJGHgqW2rqWT4W",
+            });
+        })();
+    </script>
+    <script src="https://kit.fontawesome.com/5720e5408d.js" crossorigin="anonymous"></script>
+</body>
+</html>
