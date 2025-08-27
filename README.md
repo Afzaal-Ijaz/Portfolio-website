@@ -1,9 +1,9 @@
-🌐 ##Portfolio Website
+##🌐 Portfolio Website
 
 A personal portfolio website built using HTML, CSS, and JavaScript.
 This website showcases projects, skills, and experiences in a clean and responsive design.
 
-✨ ##Features
+##✨ Features
 
 Responsive design (works on desktop, tablet, and mobile)
 
@@ -19,10 +19,22 @@ Smooth scrolling and basic animations with JavaScript
 
 Easy to customize for personal branding
 
-🛠️ ##Tech Stack
+##🛠️ Tech Stack
 
 HTML5 – structure of the website
 
 CSS3 – styling, layout, responsiveness
 
 JavaScript (Vanilla JS) – interactivity and animations
+
+
+portfolio-website/
+│── index.html        # Main landing page
+│── /css
+│    └── style.css    # Main stylesheet
+│── /js
+│    └── script.js    # Main JavaScript file
+│── /images
+│    └── ...          # Profile photo, project images
+└── README.md
+
